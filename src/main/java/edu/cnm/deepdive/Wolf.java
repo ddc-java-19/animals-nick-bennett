@@ -2,11 +2,15 @@ package edu.cnm.deepdive;
 
 public class Wolf extends Canis {
 
+  static {
+    System.out.println("Initializing Wolf class");
+  }
+
   {
     System.out.println("Performing common initialization of Wolf");
   }
 
-  public Wolf() {
+  public Wolf(int x) {
     System.out.println("When the wolf constructor completes, the wolf is ready.");
   }
 

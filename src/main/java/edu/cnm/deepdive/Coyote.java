@@ -2,6 +2,10 @@ package edu.cnm.deepdive;
 
 public class Coyote extends Canis {
 
+  static {
+    System.out.println("Initializing Coyote class");
+  }
+
   {
     System.out.println("Performing common initialization of Coyote.");
   }

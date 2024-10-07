@@ -4,6 +4,10 @@ public abstract class Canis {
 
   private int numLegs;
 
+  static {
+    System.out.println("Initializing Canis class");
+  }
+
   {
     initialize();
   }
